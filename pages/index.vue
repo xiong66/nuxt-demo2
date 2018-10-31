@@ -36,6 +36,8 @@ export default {
   computed: {
     ...mapGetters(["count"])
   },
+  mounted () {
+  },
   methods: {
     handleAdd() {
       const newCount = this.count + 1;

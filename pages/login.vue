@@ -67,4 +67,9 @@ export default {
   text-align: center;
   flex-direction: column;
 }
+.movie-item{
+  border-bottom: 1px solid #549;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
 </style>
