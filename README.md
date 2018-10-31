@@ -1,6 +1,6 @@
 # nuxt-demo2
 
-> srr模块的nuxt
+> srr模块的nuxt。增加了 vuex模块设计 和 asyncData异步获取数据
 
 ## Build Setup
 
