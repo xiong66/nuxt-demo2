@@ -44,9 +44,12 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
-    '@gauseen/nuxt-proxy'
+    '@nuxtjs/proxy'
   ],
-  proxyTable: {
+  proxy: {
+    // Simple proxy
+    // '/api': 'http://example.com',
+    // With options
     '/v2': { target: 'http://api.douban.com', ws: false }
   },
   /*
